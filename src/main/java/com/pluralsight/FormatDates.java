@@ -18,6 +18,11 @@ public class FormatDates {
         //create a localdatetime
         LocalDateTime date = LocalDateTime.now();
 
+        //print to the terminal the current time in different fromats
+        System.out.println(date.format(format1));
+        System.out.println(date.format(format2));
+        System.out.println(date.format(format3));
+        System.out.println(date.format(format4));
 
     }
 
